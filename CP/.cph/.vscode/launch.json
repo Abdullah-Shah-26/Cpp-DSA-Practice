@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/syedm/C++ DSA/CP",
-      "program": "c:/Users/syedm/C++ DSA/CP/build/Debug/outDebug",
+      "cwd": "c:/Users/syedm/DSA/COMPETITVE PROGRAMMING ( CP )",
+      "program": "c:/Users/syedm/DSA/COMPETITVE PROGRAMMING ( CP )/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
