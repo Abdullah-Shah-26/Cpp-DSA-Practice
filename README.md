@@ -1,7 +1,7 @@
 # 📘 Cpp-Dsa-Practice
 
 A condensed archive of my C++ DSA practice before shifting to Codolio.  
-Contains topic-wise solutions I worked on while building foundational problem-solving consistency.
+Contains topic-wise solutions & Implementations I worked on while building foundational problem-solving consistency.
 
 ## 📂 Contents
 - Arrays  
@@ -9,7 +9,8 @@ Contains topic-wise solutions I worked on while building foundational problem-so
 - Stacks & Queues  
 - Binary Search  
 - Trees / BST  
-- AVL  
+- AVL
+- Segment Trees
 - Heaps  
 - Graphs  
 - Dynamic Programming  
