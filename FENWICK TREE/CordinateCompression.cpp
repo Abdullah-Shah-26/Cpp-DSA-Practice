@@ -18,12 +18,9 @@ int main()
 
   sort(values.begin(), values.end());
   map<int, int> m; //* Gives Compressed Value
-  map<int, int> back; //* Gives Original Idx for Compressed Value
-  int n = values.size();
-  int idx = 1;
-
-  for (int i = 0; i < n; i++)
-  {
+  map<int, int> back; //* Gives Original Idx for  
+  for (int i = 0; i < n; i++) 
+  {  
     if (!m[values[i]])
     {
       m[values[i]] = idx;
