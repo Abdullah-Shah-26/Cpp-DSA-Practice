@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/syedm/New folder/RECURSION",
-      "program": "c:/Users/syedm/New folder/RECURSION/build/Debug/outDebug",
+      "cwd": "c:/Users/syedm/New folder/RECURSION/RECURSION",
+      "program": "c:/Users/syedm/New folder/RECURSION/RECURSION/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
