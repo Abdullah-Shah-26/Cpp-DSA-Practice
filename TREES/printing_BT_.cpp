@@ -37,7 +37,7 @@ void PostOrder(Node* root)
 
     //base case
     if(root == NULL)
-    return;
+    return; 
 
     // left 
     PostOrder(root->left);
@@ -106,6 +106,4 @@ int main()
     // PostOrder Print
     cout<<"\nPostorder : ";
     PostOrder(root);
-
-
 }
