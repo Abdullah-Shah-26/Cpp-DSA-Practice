@@ -27,9 +27,9 @@ void updateSegTree(int idx, int value,int i ,int l ,int r)
     segTree[i] += value;
     return;
   }
-  int mid = l + (r - l)/2;
+  int mid = l + (r - l)>>1;
   if(idx <= mid) // Left Child
-  updateSegTree(idx, value, i, l, mid-1);
+  updateSegTree(idx, value, i, l, mid);
   else // Right Child
   updateSegTree(idx, value, i, mid+1, r);
 
