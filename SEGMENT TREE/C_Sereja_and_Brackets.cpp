@@ -43,6 +43,7 @@ void build(int idx, int low, int high, const string &s, vector<info> &seg)
   build(2 * idx + 2, mid + 1, high, s, seg);
   seg[idx] = merge(seg[2 * idx + 1], seg[2 * idx + 2]);
 }
+
 info query(int idx, int low, int high, int l, int r, vector<info> &seg)
 {
   if (r < low || high < l)
@@ -56,6 +57,7 @@ info query(int idx, int low, int high, int l, int r, vector<info> &seg)
   info right = query(2 * idx + 2, mid+1,high, l, r, seg);
   return merge(left, right);
 }
+
 void solve()
 {
   string s;

@@ -8,6 +8,7 @@ class SGTree
   {
     seg.resize(4 * n + 1);
   }
+  
   void build(int idx, int low, int high, int arr[])
   {
     if (low == high)
@@ -20,6 +21,7 @@ class SGTree
     build(2 * idx + 2, mid + 1, high, arr);
     seg[idx] = seg[2 * idx + 1] + seg[2 * idx + 2];
   }
+
   int query(int idx, int low, int high, int l, int r)
   {
     if (r < low || high < l)
