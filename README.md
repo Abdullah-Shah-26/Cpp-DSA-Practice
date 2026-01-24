@@ -1,9 +1,9 @@
-# 📘 Cpp-Dsa-Practice
+#  Cpp-Dsa-Practice
 
 A condensed archive of my C++ DSA practice before shifting to Codolio.  
 Contains topic-wise solutions & Implementations I worked on while building foundational problem-solving consistency.
 
-## 📂 Contents
+##  Contents
 - Arrays  
 - Linked Lists  
 - Stacks & Queues  
