@@ -1,3 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using ld = long double;
+using pi = pair<int,int>;
+using ppi = pair<pair<int,int>, int>;
+using vi = vector<int>;
+using vvi = vector<vector<int>>;
+using vll = vector<ll>;
+using vvll = vector<vector<ll>>;
+using vs = vector<string>;
+using vb = vector<bool>;
+
+const int INF = 1e9;
+const int MOD = 1e9 + 7;
+
+static const auto fastio = []() {
+  ios::sync_with_stdio(false);
+  cin.tie(nullptr);
+  return 0;
+}();
+
 class Solution {
 public:
     int n, m;
