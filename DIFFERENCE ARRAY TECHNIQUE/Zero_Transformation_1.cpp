@@ -19,8 +19,8 @@ inline void fastio() { ios::sync_with_stdio(false); cin.tie(nullptr); }
 
 class Solution {
 public:
-  // TC = O(N)
-  // SC = O(N)
+  // TC = O(N + Q)
+  // SC = O(N) 
     bool isZeroArray(vector<int>& nums, vector<vector<int>>& queries){
     int n = nums.size();
     vector<int> diff(n + 1,0);

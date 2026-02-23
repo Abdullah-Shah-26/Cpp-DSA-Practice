@@ -53,3 +53,21 @@ public:
     return s;
     }
 };
+
+//! Optimal
+class Solution {
+public:
+    string shiftingLetters(string s, vector<int>& shifts) {
+    int n = s.size();
+    long long runningShift = 0;
+    // TC = O(N)
+    // SC = O(1)
+    for(int i = n-1; i >= 0; i--){
+      runningShift = (runningShift + shifts[i]) % 26;
+      int value = s[i] - 'a';
+      int updatedValue = (value + runningShift)%26;
+      s[i] = 'a' + updatedValue;
+    }
+    return s;
+    }
+};
