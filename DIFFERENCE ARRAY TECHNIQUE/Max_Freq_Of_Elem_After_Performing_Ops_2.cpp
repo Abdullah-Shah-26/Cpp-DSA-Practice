@@ -29,7 +29,7 @@ public:
       diff[l] += 1;
       diff[r + 1] -= 1;
 
-      diff[nums[i]] += 0;
+      diff[nums[i]] += 0; // Important Step
     }
 
     int result = 1;

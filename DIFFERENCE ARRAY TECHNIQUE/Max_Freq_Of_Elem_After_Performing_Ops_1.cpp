@@ -15,7 +15,7 @@ public:
   // SC = O(maxElem)
 
     int maxFrequency(vector<int>& nums, int k, int numOperations) { 
-    int n =nums.size();
+    int n = nums.size();
     int maxElem = *max_element(begin(nums), end(nums));
     int maxValue = maxElem + k;
     vector<int>diff(maxValue + 2, 0);
