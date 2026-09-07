@@ -20,7 +20,7 @@ public:
     while (!st.empty()) {
       string u = st.top();
 
-      if (adj[u].size() == 0) {
+      if (adj[u].size() == 0) { // Explored all its neighbbours
         st.pop();
         ans.push_back(u);
       } else {
